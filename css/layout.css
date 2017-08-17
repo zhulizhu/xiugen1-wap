@@ -1,0 +1,806 @@
+/********************************首页***********************************/
+/*banner*/
+.banner {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+/*公司介绍*/
+.main {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.part_one {
+    width: 90%;
+    height: 500px;
+    margin: 80px auto;
+}
+
+.part_one li {
+    float: left;
+}
+
+.introduction_left {
+    width: 35%;
+    height: 500px;
+    border-right: 2px solid #d7d7d7;
+    padding-right:20px;
+}
+
+.introduction_left h3 {
+    width: 100%;
+    height: 120px;
+    margin-top: 44px;
+    color: #222222;
+    line-height: 120px;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.introduction_left span {
+ /*   width: 279px;
+    height: 279px;
+    display: block;
+    margin: 0 auto;
+    background: url("../images/index/icon.png") no-repeat center;*/
+    width: 100%;
+     margin: 0 auto;
+    height: auto;display: block;
+}
+.introduction_left span img{width: 70%;height: auto;margin:0 15%;}
+
+.introduction_right {
+    width: 60%;
+    height: 500px;
+    margin-top: 64px;
+}
+
+.introduction_right h4 {
+    width: 100%;
+    height: auto;
+    line-height: 40px;
+    color: #222;
+    font-size: 25px;
+    padding-left: 30px;
+}
+
+.introduction_right p {
+    width: 97%;
+    height: auto;
+    line-height: 40px;
+    color: #666;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.part_two {
+    width: 100%;
+    height: auto;
+    display: block;
+  /*  background: url("../images/index/pic1.jpg") no-repeat center top;*/
+/*    background-size: 100%;*/
+    position: relative;
+/*    margin-bottom: -320px;*/
+}
+.part_two img{display: block;width: 100%;height: auto}
+.two{
+    position: absolute;
+    top:25%; 
+    right: 22%;
+    width: 280px;
+    border: 10px solid #fff;
+    padding: 15px;
+}
+.two p.fir{
+    font-size: 40px;color: #fff;text-align: center;line-height: 50px
+}
+.two p.sec{
+  color: #fff;text-align: center;line-height: 50px
+}
+.part_three {
+    width: 100%;
+    height: auto;
+/*    background: url("../images/index/yt.png") no-repeat right bottom;*/
+    display: block;
+}
+
+.part_three .div_body {
+    margin-top: 100px;
+}
+
+.brand_introduction {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.brand_introduction h2 {
+    width: 90%;
+    height: 48px;
+    margin:0 auto;
+/*    background: url("../images/index/brand1.png") no-repeat center;*/
+}
+.brand_introduction h2 img{width: 100%;}
+
+.brand_introduction ul {
+    width: 90%;
+    height: auto;
+    margin: 100px auto 0;
+    overflow: hidden;
+}
+
+.brand_introduction ul li {
+    width: 20%;
+    height: auto;
+    display: block;
+    float: left;
+/*    background: url("../images/index/icon_pic.png") no-repeat;*/
+  /*  background-size: 100%;*/
+    margin:0 2%;
+}
+.brand_introduction ul li img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/*.brand_introduction ul .a {
+    background-position: 0 0;
+    margin-left: 0;
+}
+
+.brand_introduction ul .b {
+    background-position: -325px 0;
+}
+
+.brand_introduction ul .c {
+    background-position: -651px 0;
+}
+
+.brand_introduction ul .d {
+    background-position: -976px 0;
+}*/
+
+.brand_introduction .slogan {
+    line-height: 40px;
+    color: #666;
+    width: 90%;
+    margin:10px auto;
+    font-size: 35px;
+}
+
+.brand_introduction .slogan p {
+    line-height: 88px;
+    font-size: 20px;
+    color: #222;
+    display: inline;
+}
+.brand_introduction .slogan span{
+    font-size: 20px;
+    color: #666;
+}
+.brand_introduction .slogan p>span {
+    font-size: 25px!important;
+    display: inline;
+}
+.brand_introduction .one{
+    overflow: hidden;
+}
+.brand_introduction .one img{
+    display: block;
+    float: right;
+    width: 10%;
+    height: auto;
+}
+
+.part_four{
+    width: 100%;
+    height: auto;
+}
+.part_four img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.part_five {
+    width: 100%;
+    height: auto;
+    border-bottom: 4px solid #d7d7d7;
+    margin: 0 auto;
+    padding-bottom:5px;
+}
+
+.part_five h2{
+    width: 90%;
+    height: auto;
+   /* background: url("../images/index/brand2.png") no-repeat center;*/
+/*    margin-top: 50px;*/
+    margin:70px auto 0;
+}
+.part_five h2 img{
+    display: block;
+    width:100%;
+    height: auto; 
+}
+
+.part_five h4 {
+    margin: 65px auto 0;
+    width: 100%;
+    height: 116px;
+/*    line-height: 116px;*/
+    font-size: 25px;
+    color: #222;
+    text-align: center;
+}
+
+.part_five ul {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.part_five ul li {
+    width: 20%;
+    height: 320px;
+    border: 2px solid #d7d7d7;
+    display: block;
+    float: left;
+    margin: 30px 2% 0;
+}
+
+.part_five ul li p {
+    width: 100%;
+    margin-top: 34px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+}
+
+.part_six {
+    height: 870px;
+    width: 100%;
+    background: url("../images/index/part6.jpg") no-repeat center;
+}
+
+.part_six .add_title {
+    width: 100%;
+    height: 112px;
+    line-height: 112px;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.part_six ol {
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+}
+
+.part_six ol li {
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    overflow: hidden;
+}
+
+.part_six ol li span {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    background: #9ce51f;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+ /*   margin-right: 20px;*/
+    float: left;
+    margin:10px; 
+}
+.part_six ol li p{
+    float: left;
+}
+
+.part_seven {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.part_seven h2 {
+    width: 100%;
+    height: 48px;
+/*    background: url("../images/index/brand2.png") no-repeat center;*/
+    margin-bottom: 60px;
+}
+.part_seven h2 img{
+    width: 100%;height: auto;
+}
+
+.part_seven form {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.part_seven form div span {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    color: #999;
+    font-size: 20px;
+    display: block;
+}
+
+.part_seven form div span i {
+    color: #ff0000;
+    vertical-align: middle;
+}
+
+.part_seven form div input {
+    background: #f1f1f1;
+    text-indent: 10px;
+    font-size: 20px;
+    border-style: none;
+}
+.part_seven form{
+    /*overflow: hidden;*/
+}
+.part_seven form .name {
+    width: 48%;
+    height: 100px;
+    float: left;
+}
+
+.part_seven form .name input {
+    width: 100%;
+    height: 40px;
+}
+
+.part_seven form .tel {
+    width: 48%;
+    height: 100px;
+    float: right;
+}
+
+.part_seven form .tel input {
+   width: 100%;
+   height: 40px;
+}
+
+.part_seven form .mail {
+      width: 100%;
+    height: 100px;
+    clear: both;
+/*    float: left;*/
+}
+
+.part_seven form .mail input {
+    width: 100%;
+    height: 40px;
+}
+
+.part_seven form .company {
+    width: 100%;
+    height: 100px;
+/*    clear: left;*/
+/*    float: right;*/
+}
+
+.part_seven form .company input {
+    width: 100%;
+    height: 40px;
+}
+
+.part_seven form .company_int {
+    width: 100%;
+    height: 330px;
+    clear: left;
+    float: left;
+    padding-bottom: 110px;
+}
+
+.part_seven form .company_int .text {
+    width: 60%;
+    height: 262px;
+    background: #f1f1f1;
+    resize: none;
+    font-size: 20px;
+    float: left;
+    padding: 10px;
+}
+
+.part_seven form .company_int .ewm {
+    width: 30%;
+    height: 258px;
+ /*   background: url("../") no-repeat center;*/
+    float: right;
+/*    margin: 5px 0 0 200px;*/
+}
+.part_seven form .company_int .ewm img{
+    width: 70%;
+    height: auto;
+    margin:0 auto;
+}
+
+.part_seven form .submit {
+    clear: left;
+    width: 190px;
+    height: 77px;
+    margin: 110px auto 0;
+    background: url("../images/index/contact.png") no-repeat center;
+    overflow: hidden;
+}
+
+.part_seven form .submit input {
+    width: 100%;
+    height: 77px;
+    background: rgba(0, 0, 0, 0);
+    outline: none;
+    cursor: pointer;
+    text-indent: 200px;
+}
+
+.part_seven form .submit:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+
+/*产品中心*/
+.banner2.product
+.banner.product,.banner1.product,{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.banner2.product
+.banner.product img,.banner1.product img,img{width: 100%;height: auto;}
+.product_main {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.product_grow {
+    width: 100%;
+    height: auto;
+    display: block;
+    float: left;
+}
+
+.product_list {
+    width: 1270px;
+    height: auto;
+    padding-top: 156px;
+    margin: 0 auto;
+    border-left: 2px solid #707070;
+    padding-bottom: 100px;
+    display: block;
+    float: right;
+}
+
+.product_list li {
+    padding-bottom: 110px;
+    width: 100%;
+    height: auto;
+    display: block;
+    float: right;
+}
+
+.product_list li .grow_time {
+    width: 320px;
+    height: 50px;
+    line-height: 50px;
+    background: url("../images/product/picture.png") no-repeat left center;
+    position: relative;
+    left: -22px;
+    top: 197px;
+    font-size: 20px;
+    color: #666;
+    text-indent: 90px;
+}
+
+.grow_content {
+    width: 930px;
+    height: auto;
+    display: block;
+    float: right;
+}
+
+.grow_content .grow_img {
+    width: 930px;
+    height: 580px;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.grow_content .grow_img img {
+    display: block;
+    margin: auto;
+}
+
+.grow_text {
+    width: 100%;
+    height: auto;
+    display: block;
+    font-size: 30px;
+    color: #666;
+}
+
+.grow_text .grow_title {
+    width: 100%;
+    height: 78px;
+    line-height: 78px;
+    display: block;
+    font-size: 25px;
+    color: #222;
+}
+
+.grow_text p {
+    width: 100%;
+    line-height: 56px;
+    font-size: 20px;
+}
+
+/*招贤纳士*/
+#job .bg_jobs {
+    background: #FFD513;
+    padding: 80px 0;
+}
+
+#job .am-g {
+    margin: 0 auto;
+    width: 100%;
+}
+#job .bg_jobs div {
+    padding: 0 10px;
+}
+#job .am-container {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden;
+}
+#job .am-u-md-6 {
+        float: left;
+    position: relative;
+}
+#job .am-u-md-6 img {
+    box-sizing: border-box;
+    vertical-align: middle;
+    width: auto;
+    height: 346px;
+}
+#job .jobs_fuli {
+    width: 600px;
+    background-color: #ffeea1;
+    height: 346px;
+        position: relative;
+        float: right;
+        border-radius: 20px;
+}
+#job .jobs_fuli h3 {
+    color: #865101;
+    margin: 0;
+    font-weight: normal;
+    line-height: 30px;
+    font-size: 24px;
+     padding: 20px 0 0 20px;
+}
+#job .jobs_fuli h4 {
+    color: #865101;
+    margin: 0;
+    font-weight: normal;
+    line-height: 25px;
+    padding: 0 0 20px 20px;
+}
+
+#job .jobs_fuli p {
+    margin: 0;
+    line-height: 36px;
+    color: #996803;
+    font-weight: bold;
+    padding-left: 20px;
+}
+#job .list_jobs {
+    background: #F9F9F9;
+    padding: 70px 0;
+}
+#job .am-g {
+    margin: 0 auto;
+    width: 100%;
+}
+#job .list_jobs .city_nav {
+    text-align: center;
+}
+#job .list_jobs .city_nav a.on, .list_jobs .city_nav a:hover {
+    background: #FFD513;
+    border-color: #FFD513;
+    color: #865101;
+}
+
+.list_jobs .city_nav a {
+    margin: 10px 0;
+}
+.list_jobs .city_nav a {
+    display: inline-block;
+    width: 106px;
+    height: 34px;
+    background: #fff;
+    border: 2px solid #F2F2F2;
+    border-radius: 15px;
+    color: #4c4c4c;
+    line-height: 30px;
+}
+.am-avg-md-2>li:nth-of-type(2n+1) {
+    clear: both;
+}
+.list_jobs ul {
+    margin: 20px 0;
+    padding: 20px 0;
+}
+.list_jobs ul {
+    background: #fff;
+    border-radius: 10px;
+    list-style: none;
+    overflow: hidden;
+}
+
+.list_jobs ul li:nth-child(2n+1) {
+    background: none;
+}
+.list_jobs ul li {
+    padding-bottom: 50px;
+    padding: 15px;
+    height: auto;
+    min-height: 310px;
+     display: block;
+    float: left;
+        border-bottom: 1px solid #E4E4E4;
+}
+
+.am-avg-md-2>li {
+    width: 47%;
+}
+.list_jobs ul li a {
+    font-size: 20px;
+    color: #865101;
+}
+
+.list_jobs ul li h2 {
+    font-size: 18px;
+    color: #865101;
+    font-weight: normal;
+    margin: 1rem 0;
+    line-height: 1.6rem;
+}
+
+.list_jobs ul li div {
+    color: #666666;
+    font-size: 15px;
+    line-height: 24px;
+}
+.hr {
+    padding: 37px 0 0 20px;
+}
+.hr div {
+    color: #959494;
+    font-weight: bold;
+    margin-right: 0;
+    padding: 5px;
+}
+.am-fl {
+    float: left;
+}
+.am-img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+img {
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+.hr div.lx {
+    padding: 15px 15px 0;
+    line-height: 32px;
+}
+.hr div {
+    color: #959494;
+    font-weight: bold;
+    margin-right: 0;
+    padding: 5px;
+}
+@media only screen and (max-device-width :480px){ 
+  .part_one{height: auto;overflow: hidden;margin:10px auto;}
+  .introduction_left{height: auto;width:100%; float: inherit;padding-right: 0px;  }
+  .introduction_left h3{height: 30px;font-size: 20px;line-height: normal;margin-top: 10px;}
+  .introduction_right{height: auto;width: 100%;margin-top: 10px;margin-left: 0%;}
+  .introduction_right h4{font-size: 16px;line-height: 24px;padding-left: 0px;}
+  .introduction_right p{font-size: 14px;line-height: 22px;padding-left: 0px;}
+  .two{width: 80px;border: 3px solid #fff;right: 10%;top:15px;padding:5px;}
+  .two p.fir{font-size: 16px;line-height: 22px;}
+  .two p.sec{line-height: 20px;font-size: 12px;}
+  .part_three .div_body{margin-top: 20px;}
+  .brand_introduction h2{height: 20px;}
+  .brand_introduction ul{margin: 20px auto 0;}
+  .brand_introduction .slogan{font-size: 16px;line-height: 26px;}
+  .brand_introduction .slogan p{line-height: 26px;font-size: 16px;}
+  .brand_introduction .slogan p>span{font-size: 18px!important;}
+  .brand_introduction .slogan span{font-size: 16px;}
+  .part_five h2{margin: 20px auto 0;}
+  .part_five h4{margin: 15px auto 0;line-height: 50px;font-size: 18px;height: auto}
+  .part_five ul li{height: auto;margin: 30px 0% 0;width: 99%;}
+  .part_five ul li p{margin-top: 10px;font-size: 14px;line-height: 24px;}
+  .part_six .add_title{height: auto;margin-top: 20px;line-height: 26px;font-size: 18px;}
+  .part_six ol li{height: auto;font-size: 14px;}
+  .part_six ol li span{width: 20px;height: 20px;line-height: 20px;font-size: 14px;margin:5px;}
+  .part_six ol li p{line-height: 24px;font-size: 14px;width: 80%;}
+  .part_six{height: 400px;background-size: 340%;margin-bottom: 10px;}
+  .part_seven h2{margin:10px 0;}
+  .part_seven form .name,.part_seven form .tel,.part_seven form .mail,.part_seven form .company{height: 50px;margin:10px 0;}
+  .part_seven form div span{height: 20px;font-size: 14px;line-height: 20px;}
+  .part_seven form .name input,.part_seven form .tel input,.part_seven form .mail input,.part_seven form .company input{height: 30px;font-size: 14px;}
+  .part_seven form .company_int{height:auto;padding-bottom: 20px;}
+  .part_seven form .company_int .text{height: 100px;}
+  .part_seven form .company_int .ewm{height: auto;}
+  .part_seven form .submit{margin:10px auto;background-size: 60%;}
+  .footer_left{width: 70%;}
+  .footer_left .foot_logo a{background-size: 80%;width: 90px;height: 50px;}
+  .footer_left .foot_logo span{font-size: 17px;line-height: 50px;}
+  .footer_content{padding: 20px 0;}
+  .footer_right{width: 25%;}
+  .footer_right img{width: 100%;height: auto}
+  .footer_left p{width: 100%;}
+  .footer .div_body,.footer {height: auto;}
+  .footer .copy_right{height: 40px;line-height: 40px;}
+  .product_grow {border-left:2px solid #707070!important;}
+  .product_list{width: 100%;padding-top: 20px;padding-bottom: 20px;}
+  .product_list li .grow_time{text-indent: 13px;height:50px;width: 28%;left:0;font-size: 12px;background-size: 20%;line-height: normal;}
+  .product_list li .grow_time p{line-height: 50px;text-align: center;}
+  .grow_content{width: 70%;}
+  .grow_content .grow_img{width: 100%;height: auto;margin-bottom: 10px;}
+  .grow_content .grow_img img{width: 100%;height: auto;}
+  .grow_text .grow_title{font-size: 18px;}
+  .grow_text .grow_title p{line-height: 30px;}
+  .grow_text p{font-size: 14px;line-height: 24px;}
+  .product_list li{padding-bottom: 30px;}
+  #job .bg_jobs{padding:20px 0; }
+  #job .am-container{width: 90%;margin:0 auto;}
+  #job .bg_jobs div{padding:0px;}
+  #job .jobs_fuli{width: 100%;}
+  #job .list_jobs{padding:20px 0;}
+  .list_jobs ul{padding:0px;}
+  .list_jobs ul li{width: 100%;}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
